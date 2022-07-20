@@ -1,0 +1,76 @@
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}
+table{
+    justify-content: center;
+    margin: 20px auto 20px auto;
+}
+tr{
+    justify-content: center;
+    line-height:50px;
+}
+.top {
+    padding: 60px;
+    width: 100%;
+    height: 220px;
+    background: #5f9ea0;
+    color: white;
+    font-family: Luminari;
+    font-size: 600%;
+    font-weight: bold;
+    text-align: center;
+}
+.bot {
+    padding: 30px;
+    width: 100%;
+    height: 80px;
+    background: #343b3b;
+    color: white;
+    font-family: courier;
+    font-size: 130%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    position: relative;
+    bottom: 0%;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+
+p1 {
+    color: black;
+    margin: 30 30 30 30;
+    font-family: courier;
+    font-size: 250%;
+    font-weight: bold;
+}
+p2 {
+    color: black;
+    font-family: courier;
+    font-size: 170%;
+    margin: auto;
+}
+
+.candidate_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    max-width: 250px;
+   text-align: center;
+}
+.box img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    border-color: #343b3b;
+    border-width: 3px;
+}
